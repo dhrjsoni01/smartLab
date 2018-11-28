@@ -1,0 +1,26 @@
+{
+  "name": "smart-lab-server",
+  "version": "1.0.0",
+  "description": "server code for smart lab, JEC, jabalpur",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhrjsoni01/smartLab.git"
+  },
+  "author": "DKS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhrjsoni01/smartLab/issues"
+  },
+  "homepage": "https://github.com/dhrjsoni01/smartLab#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1",
+    "rpi-gpio": "^2.1.0"
+  }
+}
